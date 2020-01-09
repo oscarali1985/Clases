@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofadi One', cursive;
+}
+/**************************************************
+                Contenedor Padre
+**************************************************/
+.flex-container {
+  display: flex;
+  justify-content: center; /*centra horizontalmente*/
+  align-items: center; /*central verticalmente*/
+  height: 100vh;
+  width: 100%;
+  background-color: DodgerBlue;
+}
+
+.flex-container>div {
+  background-color: white;
+  color: black;
+  width: 275px;
+  height: 150px;
+}
+/******************************************************/
+/******************************************************
+            Titulo y Logo
+*******************************************************/
+.flex-titulo {
+  display: flex;
+  justify-content: space-between; /*H*/
+  width: 273px;
+  height: 40px;
+  background-color: white;
+  /* border: 1px solid ; */
+}
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+/**********************************************************/
+
+/******************************************************
+            Texto y lista
+*******************************************************/
+.flex-contenido {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; /*H*/
+  width: 273px;
+  height: 75px;
+  background-color: white;
+  /* border: 1px solid; */
+}
+.texto{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 9px;
+    width: 50%;
+    text-align: justify;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+    width: 125px;
+    margin-top: -5px;
+    font-size: 10px;
+    color: rgb(161, 161, 161);
+}
+.derecho{
+    margin: 2px;
+    border-bottom: 1px solid rgb(223, 218, 218);
+}
+
+
+/**********************************************************/
+
+/**********************************************************/
+/*                      Boton
+***********************************************************/
+.btn button{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94px;
+  margin-top: 10px;
+  font-size: 9px;
+  background: rgb(209, 206, 206);
+  color: rgb(34, 33, 33);
+  font-family: 'Sofadi One', cursive;
+}

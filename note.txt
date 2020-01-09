@@ -1,0 +1,11 @@
+realt
+
+https://www.marindelafuente.com.ar/5-atajos-de-teclado-visual-studio-code/
+
+HTML
+
+control k c Cometarios 
+ul>li*4 Lista  
+ul>li>a*4 Lista con 4 anclas o enlaces    
+alt click seleccionamos Escritura multiple  
+alt z preformatea el texto 
