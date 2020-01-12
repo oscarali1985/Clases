@@ -1,0 +1,25 @@
+/* Este es un
+   comentario CSS de varias
+   lineas
+   - Give a font-size of 0.8em to both h2's
+- Now give a font-size of 0.8rem to both h3's
+   */
+
+   
+#my-first-div{font-size: 15px;}
+#the-second-one{font-size: 25px;}
+
+h2{
+    font-size: 0.8em;
+}
+
+h3{
+    font-size: 0.8rem;
+}
+
+
+
+/* ignore below this part, this styles are meant to have a cleaner exercise. */
+div{width: 45%; border: 1px solid; padding: 5px;}
+#the-second-one{float: right;}
+#my-first-div{float: left;}

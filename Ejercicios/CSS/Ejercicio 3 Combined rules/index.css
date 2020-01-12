@@ -1,0 +1,28 @@
+    /* Este es un
+   comentario CSS de varias
+   lineas 
+
+   border: color grosor estilo;
+
+   En sentido de las agujas del reloj
+padding  top right botton left
+padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+
+background #ffffff url("img_tree.png") no-repeat right top;
+background color image repeat attachment position
+
+
+   */
+
+   #myBox
+   {
+    width: 50px;
+    height: 50px;
+    padding: 10px 190px 50px 30px;
+    background: #BDBDBD url(https://assets.breatheco.de/img/funny/scared-baby.jpg) no-repeat 100px;
+    background-size: contain;
+   }

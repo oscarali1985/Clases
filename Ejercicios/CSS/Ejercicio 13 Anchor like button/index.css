@@ -1,0 +1,42 @@
+/* Este es un
+comentario CSS de variaslineas 
+
+Haz que parezca una caja: establece el relleno en 10px
+Bordes redondeados: establezca el radio del borde en 4px
+Buscar y aplicar el color: use el selector de color para buscar el color y aplicar el fondo a ese color.
+Eliminar subrayado: Establecer decoración de texto en ninguno
+Establecer el color del texto en blanco
+
+Ahora queremos que el botón se vea diferente cuando el usuario pasa el mouse, para eso usamos el selector "hover": http://lmgtfy.com/?q=how+to+use+the+hover
+
+Dentro del selector de desplazamiento: cambie el fondo del botón a un naranja más oscuro.
+
+Make it look like a box: Set padding to 10px
+Rounded borders: Set border-radius to 4px
+Find an apply the color: Use the color picker to find the color and apply make the background to that color.
+Remove underline: Set text-decoration to none
+Set the color of the text to white
+
+Now we want the button to look different when the user hovers the mouse, for that we use the "hover" selector: http://lmgtfy.com/?q=how+to+use+the+hover
+
+Inside of the :hover selector change the background of the button to a darker orange.
+   */
+
+.orange-btn{
+    /*your code here*/
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.orange-btn:hover{
+  /*your code here for the hover state*/ 
+  
+  background-color: orangered;
+  
+}
+
+
+/* ignore below this */
+body{padding: 50px 50px;}

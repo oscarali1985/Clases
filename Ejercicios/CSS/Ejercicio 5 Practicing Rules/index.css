@@ -1,0 +1,54 @@
+/* Este es un
+   comentario CSS de varias
+   lineas */
+
+   /*
+   
+   1) Establezca esta URL como imagen de fondo de la página y repítala solo verticalmente.
+http://assets.breatheco.de/img/bg/background-vertical.jpg
+
+2) Cambie el tipo de fuente de h1 a Courier y el resto del sitio web a Times new Roman.
+
+3) Cambia el color de h1 a rojo.
+
+4) Haz todos los h2 con un subrayado.
+
+5) Centre el h1 en el medio.
+
+6) Agregue un relleno izquierdo a todo el documento de 20px para que sea más fácil de leer.
+
+7) Agregue un fondo blanco semitransparente al primer párrafo de "3 razones por las que sabe que está aprendiendo" para que sea más fácil de leer (debe usar rgba para eso), y luego aplique un relleno de 5px a todos los lados de ese párrafo
+
+8) Cambie el color de "desplazamiento" del ancla a verde y elimine el subrayado. (tienes que colocar el ancla para probarlo).
+*/
+
+body
+{
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: repeat-y;
+    font-family: 'Times New Roman';
+    padding:20px;
+}
+
+h1{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+    
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#id1{
+    background:rgb(255,255,255,0.5);
+    padding:5px;
+    }
+    a:hover {
+      color: green;
+    }
+    a{
+      text-decoration:none;
+   
+    }

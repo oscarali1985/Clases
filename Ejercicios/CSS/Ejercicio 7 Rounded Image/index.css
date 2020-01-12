@@ -1,0 +1,14 @@
+/* Este es un
+   comentario CSS de varias
+   lineas */
+
+   body{
+    background: #BDBDBD;
+    border-radius:60px 60px ;
+
+    
+}
+.rounded{
+    border-radius: 100%;
+    padding: 40px;
+}

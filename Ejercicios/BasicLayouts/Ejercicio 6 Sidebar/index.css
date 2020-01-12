@@ -1,0 +1,20 @@
+/*imposible que salga el gris ya que el color es azul en el otro ejercicio los colores si se mantenian*/
+
+#wrapper{background: grey;}
+
+   #sidebar{background: blue;
+   display: flex;
+    width: 150px;
+    height: 80px;
+    float: left;
+    
+    
+}
+   #content{background: yellow;
+   display: flex;
+    height: 100px;
+    height: 80px;
+    
+  
+     
+   }

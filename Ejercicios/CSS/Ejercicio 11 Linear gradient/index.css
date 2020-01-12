@@ -1,0 +1,19 @@
+/* Este es un
+   comentario CSS de varias
+   lineas 
+   
+   Repeating-linear-gradient is a pretty new CSS background value that you can use if you want to play with linear gradients.
+
+background: repeating-linear-gradient(angle, color-from1 from-px1, color-to1 to-px1, color-stop2, ...);
+
+   */
+
+   body{
+	background: grey;
+}
+#mydiv{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	background: repeating-linear-gradient(90deg, blue, blue 10px, red 10px, red 20px, white 20px, white 30px);
+}

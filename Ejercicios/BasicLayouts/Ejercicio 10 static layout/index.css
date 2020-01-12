@@ -1,0 +1,42 @@
+/* Este es un
+   comentario CSS de varias
+   lineas */
+
+/* your code here */
+
+nav{height:900px;width:29%;float:left;  }
+section{    height:900px;width:69%;  float:right;  }
+
+
+/**************************************
+DON'T CHANGE ANYTHING AFTER THIS LINE
+**************************************/
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #2980b9;
+    color: #FFF;
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0;
+  }
+  
+  header,
+  nav,
+  section {
+    border: 1px solid rgba(255,255,255,0.8);
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  
+  header {
+    padding: 10px 0;
+  }
+  
+  nav, section {
+    padding: 100px 0;
+  }

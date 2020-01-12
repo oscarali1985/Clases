@@ -1,0 +1,20 @@
+/* 
+First, run the exercise, you will see both <div> acting like default boxes.
+1) Apply the class .absolutePositionExample to #secondDiv and compare results.
+2) Remove that class, and now apply .relativePositionExample to #secondDiv and compare results.
+
+Primero, ejecute el ejercicio, verá que ambos <div> actúan como cuadros predeterminados.
+
+1) Aplique la clase .absolutePositionExample a #secondDiv y compare los resultados.
+2) Elimine esa clase y ahora aplique .relativePositionExample a #secondDiv y compare los resultados.
+
+Pregúntese:
+
+¿Cuál fue la diferencia? 
+La posición relativa es relativa a la posición inicial del elemento, el absoluto ignora por completo la posición inicial.
+*/
+
+   #firstDiv{background: blue; width: 100px; height: 100px;}
+   #secondDiv{background: yellow; width: 100px; height: 100px;}
+   .absolutePositionExample{position: absolute; top: 20px; left: 20px;}
+   .relativePositionExample{position: relative; top: 20px; left: 20px;}

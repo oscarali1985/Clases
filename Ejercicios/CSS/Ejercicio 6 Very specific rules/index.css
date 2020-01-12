@@ -1,0 +1,28 @@
+/* Este es un
+   comentario CSS de varias
+   lineas */
+
+/** Insert your code here **/
+
+p+ ol li:nth-child(even){
+    background-color: green;
+  }
+  tr:nth-child(odd){
+    background-color: yellow;
+  }
+  h2+ul li{
+    color:red;
+  }
+  
+  
+  /*********** REDONLY BLOCK ******
+  You CAN NOT UPDATE anything from here on,
+  only add lines of code on top of this lines
+  **/
+  
+  body{
+      color: blue;
+  }
+  ul li, ol li{
+      color: green;
+  }

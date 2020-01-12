@@ -1,0 +1,9 @@
+/* Este es un
+   comentario CSS de varias
+   lineas */
+
+#myImage{
+max-width: 250px;
+float: left;
+margin-right: 10px;
+}
