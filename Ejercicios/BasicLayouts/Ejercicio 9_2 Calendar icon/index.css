@@ -1,9 +1,5 @@
-/* Este es un
-   comentario CSS de varias
-   lineas */
 
-
-   .calendar{
+.calendar{
 	top:0em;
   	left:1em;
 	padding-top:5px;
@@ -17,15 +13,8 @@
 	position:absolute;
 	}
 
-.calendar em{
-	display:block;
-	font-size: 15px;
-	color:#fff;
-	background:#04599a;
-	border-bottom-right-radius:3px;
-	border-bottom-left-radius:3px;	
-	}
 
+/* Puntos */
 .calendar:before, .calendar:after{
 	content:'';
 	float:left;
@@ -35,18 +24,24 @@
 	z-index:1;
 	border-radius:10px;
 	box-shadow:0 1px 1px #fff;
+	position: absolute;
 	}
+	
 .calendar:before{left:11px;}	
 .calendar:after{right:11px;}
+.calendar em:before{left:3px;}	
+.calendar em:after{right:3px;}	
 
+/* Rayas */
 .calendar em:before, .calendar em:after{
 	content:'';
 	float: left;
 	margin: 10px;
 	width:4px;
 	height:14px;
-	background:blue;
+	background:Silver;
 	z-index:2;
+	position: absolute;
+	border-radius:10px;
 	}
-.calendar em:before{left:13px;}	
-.calendar em:after{right:13px;}	
+
