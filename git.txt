@@ -1,0 +1,34 @@
+Para editar el comentario del commit
+git init
+git add.
+
+git status 
+
+git commit --amend -m "your new message"
+
+git diff
+
+git reset volver al proceso anterior
+git checkout con el hash para regresar a un punto anterior
+
+git switch - deshacer el cambio
+
+git branch [nuevonombre] hash
+
+git merge [head]
+git pull . [head]
+
+git branch my_version
+
+git checkout my_version
+git merge my_version
+Una vez fucionada se elmina version anterior
+git branch -d my_version
+
+El fork es para duplicar un repositorio
+vamos a clonamos el repositario
+
+para subir o actualizar un repositorio
+git remote add origin https://github.com/oscarali1985/student-external-profile.git
+
+pull request 
