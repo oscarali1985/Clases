@@ -1,3 +1,6 @@
+para salir de la consola de guardado
+shift zz
+
 Para editar el comentario del commit
 git init
 git add.
@@ -32,3 +35,18 @@ para subir o actualizar un repositorio
 git remote add origin https://github.com/oscarali1985/student-external-profile.git
 
 pull request 
+
+git log -- all
+git log --graph  
+git log --graph --decorate --oneline
+crear alias = tags
+$ alias arbolito="git log --all --graph --decorate --oneline"
+
+git tag -a v0.1 -m "resultados de las primeras clases" cd08467
+git show-ref --tags
+history
+git pull origin --tags  
+
+Eliminar tag
+git tag -d dormido
+git push origin :refs/tag/dormido
