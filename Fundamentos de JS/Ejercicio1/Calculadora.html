@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form name="f1">
+        Primer Valor: <input maxlength="5" size="5" name="minim"> <br>
+        Segundo Valor: <input maxlength="5" size="5" name="maxim"> <br><br>
+        Resultado : <input type="text" maxlength="5" size="5" name="res"> <br><br>
+        <input onclick=calculo_aleatorio_formulario() type="button" value="Calculo">
+        <input onclick=suma() type="button" value="+">
+        <input onclick=resta() type="button" value="-">
+        <input onclick=multi() type="button" value="*">
+        <input onclick=div() type="button" value="/">
+        
+
+    </form>
+
+    <script>
+
+        function aleatorio(a,b){
+            return parseInt(a)+parseInt(b)
+        }
+
+        function calculo_aleatorio_formulario(){
+            minimo=document.f1.minim.value;
+            maximo=document.f1.maxim.value;
+            resultado = aleatorio(minimo,maximo);
+            document.f1.res.value=resultado
+        }
+
+        function suma(){
+            minimo=document.f1.minim.value;
+            maximo=document.f1.maxim.value;
+            resultado = parseInt(minimo)+parseInt(maximo);
+            document.f1.res.value=resultado
+        }
+
+        function resta(){
+            minimo=document.f1.minim.value;
+            maximo=document.f1.maxim.value;
+            resultado = parseInt(minimo)-parseInt(maximo);
+            document.f1.res.value=resultado
+        }
+        function multi(){
+            minimo=document.f1.minim.value;
+            maximo=document.f1.maxim.value;
+            resultado = parseInt(minimo)*parseInt(maximo);
+            document.f1.res.value=resultado
+        }
+        function div(){
+            minimo=document.f1.minim.value;
+            maximo=document.f1.maxim.value;
+            resultado = parseInt(minimo)/parseInt(maximo);
+            document.f1.res.value=resultado
+        }
+
+
+
+
+
+    </script>
+
+    
+    <!------------------------ ----------------------------------------->
+    
+</body>
+</html>

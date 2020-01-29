@@ -105,3 +105,6 @@ console.log(mensaje.repeat(22));
 
 
 /* */
+
+//nos identifica el tipo de valor
+console.log(typeof valor);

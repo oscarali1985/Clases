@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aleatorio</title>
+</head>
+<body>
+    <form name="f1">
+        Minimo: <input maxlength="5" size="5" name="minim"> <br>
+        Maximo: <input maxlength="5" size="5" name="maxim"> <br><br>
+        Resultado: <input type="text" maxlength="5" size="5" name="res"> <br><br>
+        <input onclick=calculo_aleatorio_formulario() type="button" value="calcular aleatorio">
+        
+
+    </form>
+
+    <script>
+
+        function aleatorio(a,b){
+            return Math.round(Math.random()*(b-a)+parseInt(a))
+        }
+
+        function calculo_aleatorio_formulario(){
+            minimo=document.f1.minim.value;
+            maximo=document.f1.maxim.value;
+            resultado = aleatorio(minimo,maximo);
+            document.f1.res.value=resultado
+        }
+    </script>
+
+    
+    <!------------------------ ----------------------------------------->
+    
+</body>
+</html>

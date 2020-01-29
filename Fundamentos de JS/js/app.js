@@ -1,35 +1,27 @@
-const numero1 = 30, 
-      numero2=15,
-      numero3=20.20,
-      numero4=2,
-      numero5=3;
-    
-let resultado1,
-    resultado2,
-    resultado3,
-    resultado4,
-    resultado5;
+const numero1 = '50', numero2=10, numero3 = 'tres';
 
-//sumar
-resultado1 = numero1+numero2;
+console.log('Java'+'Script');
+console.log(numero1+numero2);
+console.log(typeof numero1);
 
-//restar
-resultado2 = numero1-numero2;
+//comvierte string a numero
+console.log(typeof Number(numero1));
+console.log(parseInt(numero1)+numero2);
 
-//Multiplicar
-resultado3 = numero3*numero2;
+console.log('resta')
+console.log(numero1 -numero2);
+console.log(numero1 *numero2);
+console.log(numero1 /numero2);
 
-//dividir
-resultado4 = numero3/numero5;
-
-//modulo
-resultado5 = numero5 % numero4;
+let dato, dato2, dato3;
 
 
-console.log(resultado1);
-console.log(resultado2);
-console.log(resultado3);
-console.log(resultado4);
-console.log(resultado5);
+dato =1447771212;
+console.log(dato.toFixed());
 
+dato2=1214425.2546;
+console.log(dato2.toFixed(3));
+console.log(typeof dato2);
 
+dato3='775846.95134654';
+console.log(parseFloat(dato3).toFixed(2));
