@@ -1,27 +1,77 @@
-const numero1 = '50', numero2=10, numero3 = 'tres';
+const metodoPago="tarjeta";
 
-console.log('Java'+'Script');
-console.log(numero1+numero2);
-console.log(typeof numero1);
+switch(metodoPago){
 
-//comvierte string a numero
-console.log(typeof Number(numero1));
-console.log(parseInt(numero1)+numero2);
+    case 'efectivo':
+        console.log(`El usuario pago con ${metodoPago}`);
+        break;
+    case 'cheque':
+        console.log(`El usuario pago con ${metodoPago}`);
+        break;
+    case 'tarjeta':
+            console.log(`El usuario pago con ${metodoPago}`);
+            break;
+    default:
+        console.log('Metodo de pago no soportado');
+        break;
+}
 
-console.log('resta')
-console.log(numero1 -numero2);
-console.log(numero1 *numero2);
-console.log(numero1 /numero2);
 
-let dato, dato2, dato3;
+let dia=new Date().getDay()
+
+if(dia==0){
+    dia='Domingo';
+}else if(dia==1){
+    dia='Lunes';
+}else if(dia==2){
+    dia='Martes';
+}else if(dia==3){
+    dia='Miercoles';
+}else if(dia==4){
+    dia='Jueves';
+}else if(dia==5){
+    dia='Viernes';
+}else if(dia==6){
+    dia='Sabado';
+}
+
+console.log(`Hoy es ${dia}`);
+
+let sdia=new Date().getDay()
+
+switch(sdia){
+
+    case 0:
+        console.log(`Domingo`);
+        break;
+    case 1:
+        console.log(`Lunes`);
+        break;
+    case 2:
+        console.log(`Martes`);
+        break;
+    case 3:
+            console.log(`Miercoles`);
+            break;
+    case 4:
+            console.log(`Jueves`);
+            break;
+    case 5:
+            console.log(`Viernes`);
+            break;
+    case 6:
+            console.log(`Sabado`);
+            break;
 
 
-dato =1447771212;
-console.log(dato.toFixed());
+    default:
+        console.log('dia no existe');
+        break;
+}
 
-dato2=1214425.2546;
-console.log(dato2.toFixed(3));
-console.log(typeof dato2);
 
-dato3='775846.95134654';
-console.log(parseFloat(dato3).toFixed(2));
+
+var bulletPosition = 3;
+
+
+
