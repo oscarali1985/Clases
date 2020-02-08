@@ -29,11 +29,23 @@ var person2 = {
 };
 
 //Little Jimmy's object
+var person3={
+    name: "Jimmy",
+    lastname: "Doe",
+    age: 13,
+    gender: "male",
+    lucky_numbers: [ 1, 2, 3, 4],
+    significant_other: null
+}
 
 var family = {
     lastname: "Doe",
     members: [person, person2]       //Array of objects, don't forget to add Jimmy
 };
+
+family.members.push(person3);
+family.members[0].lucky_numbers.pop();
+family.members[0].lucky_numbers.push(33);
 
 
 function addAllFamilyNumbers(doeFamily){
@@ -41,8 +53,13 @@ function addAllFamilyNumbers(doeFamily){
   
   //To-Do: loop and add
   //Hint: use the doeFamily variable to get all of the lucky numbers
-  
+        for(i=0;i<=family.length-1;i++){
+            for(y=0;y<=family.members[i].lucky_numbers.length-1;y++){
+                sumOfAllLuckyNumbers=sumOfAllLuckyNumbers+family.members[i].lucky_numbers[y];
+            }
+
+        }
   return sumOfAllLuckyNumbers;
 }
 
-//console.log(addAllLuckyNumbers(); 
+console.log(addAllFamilyNumbers(family)); 

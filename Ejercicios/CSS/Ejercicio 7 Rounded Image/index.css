@@ -4,11 +4,13 @@
 
    body{
     background: #BDBDBD;
-    border-radius:60px 60px ;
-
     
 }
-.rounded{
+img{
+    width: 200px;
+    height: 200px;
+    
+    background-size: 220px;
     border-radius: 100%;
-    padding: 40px;
+    background-position: -2px -2px;
 }
